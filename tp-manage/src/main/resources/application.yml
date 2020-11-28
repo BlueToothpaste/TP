@@ -1,0 +1,11 @@
+server:
+  port: 8898
+
+management:
+  server:
+    port: 8898
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      base-path: /management
